@@ -43,6 +43,10 @@ input::placeholder {
 
     }
 
+    input:invalid{
+      border-color: red;
+    }
+
 ::-webkit-input-placeholder {
   text-align: center;
 
@@ -249,7 +253,7 @@ footer{
 
 /* Media Queries */
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .title {
     position: fixed;
     top: 0;
